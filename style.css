@@ -6,6 +6,8 @@
 
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -38,8 +40,17 @@ main {
     text-shadow: 1px 5px 12px rgba(0, 0, 0, 0.377);
 }
 
+.left-login > h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 3vw;
+    color: #C7C7C7;
+    text-shadow: 1px 5px 12px rgba(0, 0, 0, 0.377);
+    margin: 0;
+}
+
 .animacao {
-    width: 35vw;
+    width: 50vw;
+    height: 40vh;
 }
 
 .right-login {
@@ -67,6 +78,7 @@ main {
     font-weight: 800;
     margin: 0;
     text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.377);
+    cursor: pointer;
 }
 
 .textfield {
@@ -114,6 +126,11 @@ main {
     background: #00ff88;
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+.btn-login:hover {
+    background-color: #208b59;
+    color: white;
 }
 
 @media only screen and (max-widht: 950px) {
